@@ -1,0 +1,33 @@
+body {
+    background-color: rgb(31, 30, 30);
+    margin: 8rem;
+}
+
+form {
+    width: 30rem;
+    margin: 3rem auto;
+    background-color: antiquewhite;
+    padding: 1rem;
+    border-radius: 6px;
+}
+
+input {
+    width: 100%;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+}
+
+
+button {
+    display: block;
+}
+
+.form-control-inline {
+    display: flex;
+}
+
+.form-control-inline  input {
+    width: auto;
+    margin: 0.5rem;
+}

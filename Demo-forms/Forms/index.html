@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>HTML Forms</title>
+  </head>
+  <body>
+    <form action="/" method="GET">
+      <label for="username">Your Name</label>
+      <input type="text" name="user-name" id="username" />
+
+      <label for="useremail">Your email address </label>
+      <input type="email" name="user-email" id="useremail" />
+
+      <label for="userage">Your Age</label>
+      <input type="number" name="user-age" id="userage" />
+
+      <label for="userpassword">enter your password</label>
+      <input type="password" name="user-password" id="userpassword" />
+
+      <label for="date">Submit date </label>
+      <input type="date" name="user-date" id="date" />
+      <hr />
+      <h2>How should we verify your account</h2>
+      <div class="form-control-inline">
+ <input type="radio" name="verify" id="text" value="text" />
+      <label for="text">Via Text Message</label>
+      </div>
+      <div class="form-control-inline">
+<input type="radio" name="verify" id="call" value="call" />
+      <label for="call">Via Call</label>
+      </div>
+      <div class="form-control-inline">
+ <input type="radio" name="verify" id="email" value="email" />
+      <label for="email">Via email</label>
+      </div>
+      <div class="form-control-inline">
+<input type="checkbox" id="terms" name="terms">
+      <label for="terms">Agree to terms?</label>
+      </div>
+      
+     
+      
+     
+
+      
+
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header><h1>Contact Us</h1></header>
+    <main>
+      <form action="/" method="get">
+        <section>
+            <h2>How can we help you?</h2>
+            <ul>
+                <li>
+                  <label for="name">Your Name</label>
+                  <input type="text" id="name" name="name" required />
+                </li>
+                <li>
+                  <label for="email">Your E-Mail Address</label>
+                  <input type="email" id="email" name="email" required />
+                </li>
+                <li>
+                    <label for="phone">Your Phone number</label>
+                    <input type="tel" id="phone" name="phone" required minlength="5" />
+                </li>
+                <li>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" rows="6" required minlength="10" maxlength="300"></textarea>
+                 </li>
+            </ul>
+        </section>
+
+        <section>
+            <label for="channel">How did you find us?</label>
+            <select name="channel" id="channel" required>
+              <option value="">Word of Mouth</option>
+              <option value="">Web Search</option>
+              <option value="">Other</option>
+            </select>
+        </section>
+
+        <section>
+          <h2>How should we reply?</h2>
+          <ul class="reply-list">
+            <li class="inline-control">
+              <input type="radio" name="reply" id="call" value="call-me" required />
+              <label for="call">Call Me</label>
+            </li>
+            <li class="inline-control">
+              <input type="radio" name="reply" id="email" value="email-me" required />
+              <label for="email">Send me an Email</label>
+            </li>
+            <li class="inline-control">
+              <input type="radio" name="reply" id="noreply" value="no-reply" required />
+              <label for="noreply">Don't reply</label>
+            </li>
+          </ul> 
+        </section>
+
+        <section class="inline-control">
+            <input type="checkbox" name="terms" id="terms" required/>
+            <label for="terms">Accept Terms</label>
+        </section>
+
+        <section id="btn">
+          <button type="reset" class="btn-empty">Clear</button>
+          <button type="submit" class="btn-filled">Submit</button>
+        </section>
+      </form>
+    </main>
+  </body>
+</html>
