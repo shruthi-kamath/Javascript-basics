@@ -1,0 +1,12 @@
+div {
+    width: 200px;
+    height: 200px;
+    margin : -8;
+    background: #b5e0ba;
+    box-shadow: 800px 200px 0  10px #b5e0ba,
+    0px  0px 0  100px #b5e0ba,
+    0px 0px 0 0px #b5e0ba;
+  }
+  body {
+    background: #5d3a3a;
+  }
