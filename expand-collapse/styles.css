@@ -1,0 +1,44 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+  
+body {
+    width: 90%;
+    min-width: 800px;
+    margin: 0 auto;
+    font-family: "Raleway", sans-serif;
+    font-size: medium;
+    text-decoration: none;
+}
+
+.card {
+    display:block;
+    text-align:left;
+    padding: 4px 5px 4px 5px rgb(5, 5, 5);
+    border: 2px double rgb(10, 10, 10);
+    margin: 10px 10px;
+}
+
+.card-header {
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    text-align: justify;
+    border: 1px double rgb(10, 10, 10);
+}
+
+span {
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+
