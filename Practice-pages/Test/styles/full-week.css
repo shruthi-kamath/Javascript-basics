@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+  background-color: rgb(233, 215, 207);
+  margin: 50px;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+  color: red;
+  margin: 12px;
+}
+a {
+  background-color: aqua;
+  border: 1px solid white;
+  padding: 12px;
+  border-radius: 4px;
+  font-size: 24px;
+}
+p {
+  font-family: cursive;
+  color: blue;
+}
+#paragraph-1 {
+  font-family: serif;
+  font-weight: bold;
+}
+ol {
+  list-style: none;
+}
+
+li {
+  list-style: square;
+}
